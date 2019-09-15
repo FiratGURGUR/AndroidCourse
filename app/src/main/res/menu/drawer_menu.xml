@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.androidx.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item android:id="@+id/nav_home"
+            android:icon="@drawable/homepage"
+            android:title="Home Page"/>
+        <item android:id="@+id/nav_profile"
+            android:icon="@drawable/profile"
+            android:title="Profile"/>
+        <item android:id="@+id/nav_connect"
+            android:icon="@drawable/connect"
+            android:title="Connect"/>
+        <item android:id="@+id/nav_fixtures"
+            android:icon="@drawable/fixtures"
+            android:title="Fixtures"/>
+        <item android:id="@+id/nav_table"
+            android:icon="@drawable/table"
+            android:title="Table"/>
+    </group>
+</menu>
